@@ -26,3 +26,49 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.submitButton{
+  box-shadow: -5px 3px 0px 0px #382f38;
+	background-color:#44c767;
+	border-radius:42px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	padding:19px 55px;
+  text-decoration:none;
+  margin: 20px 0 20px 0;
+}
+
+.submitButton:hover{
+  cursor: pointer;
+  background: skyblue;
+  border: green;
+}
+
+input{
+  width:20%;
+  padding: 12px 20px;
+  margin:10px 700px 0 700px;
+  box-sizing: border-box;
+}
+
+.smurfList{
+  border: 1px dashed skyblue;
+  margin: auto 0;
+}
+
+.eachSmurf{
+  width: 26%;
+  margin: 0px 700px 0 700px;
+  border: 1px solid red;
+}
+
+.eachSmurf:hover{
+  cursor: pointer;
+  background: skyblue;
+}
+
