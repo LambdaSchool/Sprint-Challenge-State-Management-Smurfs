@@ -1,0 +1,15 @@
+.InputBoxes {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(62, 172, 245);
+    border-radius: 5%;
+}
+
+input {
+    
+    margin: 10px 0px;
+    width:250px;
+}
