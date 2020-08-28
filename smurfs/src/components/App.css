@@ -1,3 +1,45 @@
 .App {
   text-align: center;
+  margin: 20px;
+  padding: 100px 0px;
+  border-radius: 50px;
+  background-color: #7d7878;
+  color: white;
+  }
+
+.smurfList {
+  	width: 400px;
+  	margin: 10px auto;
+
+  }
+
+.eachSmurf {
+  		border: 3px #224DE3 dotted;
+  		margin: 5px 0px;
+  	}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  font-size:1.3rem;
+
+}
+
+input[type=text]:focus {
+  background-color: #224DE3 ;
+  color: white;
+}
+
+::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+
+::placeholder:focus {
+  color: white;
+  font-size: 1rem;
 }
